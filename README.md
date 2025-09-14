@@ -1,4 +1,4 @@
-# Scientific Knowledge Contribution (SKC) Citation Classification Dataset
+# Scientific Knowledge Contribution (SKC) Dataset
 
 ## 📖 Overview
 
