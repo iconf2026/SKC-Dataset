@@ -29,7 +29,7 @@ Our proposed Scientific Knowledge Contribution (SKC) classification framework sy
 ## 🔧 Dataset Construction
 
 ### Data Source
-- **Corpus**: ACL Anthology (1979-2021)
+- **Corpus**: ACL Anthology (1980-2024)
 - **Raw Citations**: 802,202 instances
 - **Annotated Samples**: 2,000 high-quality instances
 - **Languages**: Primarily English academic papers
