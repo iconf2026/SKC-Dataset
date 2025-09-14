@@ -40,5 +40,3 @@ Our proposed Scientific Knowledge Contribution (SKC) classification framework sy
 3. **Inter-annotator Agreement**: Cohen's κ > 0.75
 4. **Guideline Development**: Comprehensive annotation guidelines
 
-## 📁 Dataset Structure
-
