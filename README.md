@@ -57,9 +57,6 @@ Our dataset spans **44 years** of computational linguistics research, capturing 
 - **Period 4 (2017-2020)**: Pre-trained Model Revolution Era
 - **Period 5 (2021-2024)**: Large Language Model and Foundation Model Era
 
-The citation volume shows **exponential growth**, particularly accelerating after 2000, reflecting the rapid expansion of NLP research across these distinct methodological paradigms.
-
-
 #### Section-wise Distribution
 Citations are distributed across six primary paper sections:
 - **Related Work**: 44.0% (154,816 instances) - Largest category
