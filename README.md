@@ -117,4 +117,43 @@ Heat map analysis reveals distinct patterns:
 5. **Rich Context**: Average 400+ character citation contexts
 6. **High Quality**: Expert annotation with rigorous quality control
 7. **Research Relevance**: Addresses real challenges in citation analysis
+## 📋 Data Format Description
+
+### Dataset Structure
+The dataset is provided in TSV (Tab-Separated Values) format, where each row represents a citation instance with the following fields:
+
+| Field Name | Type | Description |
+|------------|------|-------------|
+| `id` | Integer | Unique identifier for the citation instance |
+| `citing_paper_id` | String | Unique ID of the citing paper |
+| `citing_paper_title` | String | Title of the citing paper |
+| `citing_paper_authors` | String | Author list of the citing paper (semicolon-separated) |
+| `citing_paper_year` | Integer | Publication year of the citing paper |
+| `citing_paper_abstract` | String | Abstract of the citing paper |
+| `citation_section` | String | Paper section where the citation appears |
+| `citation_frequency` | Integer | Frequency of this citation in the citing paper |
+| `cited_paper_title` | String | Title of the cited paper |
+| `cited_paper_authors` | String | Author list of the cited paper (semicolon-separated) |
+| `cited_paper_year` | Integer | Publication year of the cited paper |
+| `cited_paper_bib_id` | String | Bibliography ID of the cited paper |
+| `cited_paper_abstract` | String | Abstract of the cited paper |
+| `citation_context` | String | Complete citation context (including surrounding sentences) |
+| `prev_sentence` | String | Sentence preceding the citation |
+| `current_sentence` | String | Current sentence containing the citation |
+| `next_sentence` | String | Sentence following the citation |
+| `period` | String | Time period identifier (e.g., Period5_2021-2024) |
+| `KC` | Integer | Knowledge Contribution type label (1-5 mapping to SKC types) |
+
+### Label Mapping
+The Knowledge Contribution (KC) field uses numerical mapping:
+- `1`: **Background** - Contextual information and research positioning
+- `2`: **Method & Technology** - Algorithms, models, techniques, and systems
+- `3`: **Resource & Tool** - Datasets, corpora, and computational tools
+- `4`: **Theory** - Theoretical frameworks, concepts, and definitions
+- `5`: **Evidential Finding** - Empirical results and experimental findings
+
+### Data Sample
+```tsv
+id	citing_paper_id	citing_paper_title	citing_paper_authors	citing_paper_year	...	KC
+941749	2023.emnlp-main.873	Hi Guys or Hi Folks? Benchmarking Gender-Neutral Machine Translation with the GeNTE Corpus	Andrea Piergentili; Beatrice Savoldi; Dennis Fucci; Matteo Negri; Luisa Bentivogli	2023	...	2
 
