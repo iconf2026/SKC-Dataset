@@ -51,12 +51,14 @@ Our proposed Scientific Knowledge Contribution (SKC) classification framework sy
 
 #### Temporal Distribution (1980-2024)
 Our dataset spans **44 years** of computational linguistics research, capturing key developmental phases:
-- **Statistical Learning Maturity** (1980s-1990s)
-- **Neural Network Rise** (2000s-2010s)  
-- **Pre-trained Model Revolution** (2010s)
-- **Large Language Model Era** (2020s)
+- **Period 1 (1980-1999)**: Rule-based and Early Statistical Learning Era
+- **Period 2 (2000-2010)**: Statistical Learning Maturity Period  
+- **Period 3 (2011-2016)**: Neural Network Rise and Deep Learning Revolution
+- **Period 4 (2017-2020)**: Pre-trained Model Revolution Era
+- **Period 5 (2021-2024)**: Large Language Model and Foundation Model Era
 
-The citation volume shows **exponential growth**, particularly accelerating after 2000, reflecting the rapid expansion of NLP research.
+The citation volume shows **exponential growth**, particularly accelerating after 2000, reflecting the rapid expansion of NLP research across these distinct methodological paradigms.
+
 
 #### Section-wise Distribution
 Citations are distributed across six primary paper sections:
