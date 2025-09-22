@@ -50,7 +50,7 @@ Our proposed Scientific Knowledge Contribution (SKC) classification framework sy
 </div>
 
 #### Temporal Distribution (1980-2024)
-Our dataset spans **44 years** of computational linguistics research, capturing key developmental phases:
+Our dataset spans **45 years** of computational linguistics research, capturing key developmental phases:
 - **Period 1 (1980-1999)**: Rule-based and Early Statistical Learning Era
 - **Period 2 (2000-2010)**: Statistical Learning Maturity Period  
 - **Period 3 (2011-2016)**: Neural Network Rise and Deep Learning Revolution
@@ -111,7 +111,7 @@ Heat map analysis reveals distinct patterns:
 ## 🔍 Key Dataset Features
 
 1. **Large-scale Foundation**: Built from 800K+ citation instances
-2. **Temporal Comprehensiveness**: 44-year span covering major NLP evolution phases
+2. **Temporal Comprehensiveness**: 45-year span covering major NLP evolution phases
 3. **Balanced Sampling**: Stratified approach ensuring representativeness
 4. **Fine-grained Classification**: 5 distinct knowledge contribution types
 5. **Rich Context**: Average 400+ character citation contexts
