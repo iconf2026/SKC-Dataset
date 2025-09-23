@@ -176,12 +176,4 @@ The Knowledge Contribution (KC) field uses numerical mapping:
 | **period** | Period5_2021-2024 |
 | **KC** | 2 |
 
-**Example Instance Analysis:**
-- **Citing Paper**: "Hi Guys or Hi Folks? Benchmarking Gender-Neutral Machine Translation with the GeNTE Corpus" (2023)
-- **Cited Paper**: "Transformers: State-of-the-art natural language processing" (2020)
-- **Citation Context**: "The code for finetuning relies on Huggingface transformers library CITATION."
-- **SKC Classification**: Method & Technology (KC=2) - The citing paper directly uses the Transformers library for implementation
-- **Section**: C.2 Training Setup
-- **Time Period**: Period5_2021-2024
-
 
