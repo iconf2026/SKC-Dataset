@@ -156,24 +156,26 @@ The Knowledge Contribution (KC) field uses numerical mapping:
 
 | Field | Value |
 |-------|-------|
-| **id** | 941749 |
-| **citing_paper_id** | 2023.emnlp-main.873 |
-| **citing_paper_title** | Hi Guys or Hi Folks? Benchmarking Gender-Neutral Machine Translation with the GeNTE Corpus |
-| **citing_paper_authors** | Andrea Piergentili; Beatrice Savoldi; Dennis Fucci; Matteo Negri; Luisa Bentivogli |
-| **citing_paper_year** | 2023 |
-| **citing_paper_abstract** | Gender inequality is embedded in our communication practices and perpetuated in translation technologies. This becomes particularly apparent when translating into grammatical gender languages, where machine translation (MT) often defaults to masculine and stereotypical representations by making undue binary gender assumptions. Our work addresses the rising demand for inclusive language by focusing head-on on gender-neutral translation from English to Italian. We start from the essentials: proposing a dedicated benchmark and exploring automated evaluation methods. First, we introduce GeNTE, a natural, bilingual test set for gender-neutral translation, whose creation was informed by a survey on the perception and use of neutral language. Based on GeNTE, we then overview existing reference-based evaluation approaches, highlight their limits, and propose a reference-free method more suitable to assess gender-neutral translation. |
-| **citation_section** | C.2 Training Setup |
-| **citation_frequency** | 1 |
-| **cited_paper_title** | Transformers: State-of-the-art natural language processing |
-| **cited_paper_authors** | Thomas Wolf; Lysandre Debut; Victor Sanh; Julien Chaumond; Clement Delangue; Anthony Moi; Pierric Cistac; Tim Rault |
-| **cited_paper_year** | 2020 |
-| **cited_paper_bib_id** | wolf-etal-2020-transformers |
-| **cited_paper_abstract** | Recent progress in natural language processing has been driven by advances in both model architecture and model pretraining.Transformer architectures have facilitated building higher-capacity models and pretraining has made it possible to effectively utilize this capacity for a wide variety of tasks.Transformers is an open-source library with the goal of opening up these advances to the wider machine learning community.The library consists of carefully engineered stateof-the art Transformer architectures under a unified API.Backing this library is a curated collection of pretrained models made by and available for the community.Transformers is designed to be extensible by researchers, simple for practitioners, and fast and robust in industrial deployments.The library is available at https://github.com/ huggingface/transformers. |
-| **citation_context** | We trained the parameters of both the linear layer and UmBERTo on the classification task for 2 epoch, with learning rate of 5e-5, batch size of 64 and maximum sequence length of 64, on a p3.2xlarge instance on AWS (featuring one NVIDIA V100 GPU). The code for finetuning relies on Huggingface transformers library CITATION . |
-| **prev_sentence** | We trained the parameters of both the linear layer and UmBERTo on the classification task for 2 epoch, with learning rate of 5e-5, batch size of 64 and maximum sequence length of 64, on a p3.2xlarge instance on AWS (featuring one NVIDIA V100 GPU). |
-| **current_sentence** | The code for finetuning relies on Huggingface transformers library CITATION . |
-| **next_sentence** | (empty) |
-| **period** | Period5_2021-2024 |
-| **KC** | 2 |
+| **id** | 382068 |
+| **citing_paper_id** | N18-2105 |
+| **citing_paper_title** | Unsupervised Keyphrase Extraction with Multipartite Graphs |
+| **citing_paper_authors** | Florian Boudin |
+| **citing_paper_year** | 2018 |
+| **citing_paper_abstract** | We propose an unsupervised keyphrase extraction model that encodes topical information within a multipartite graph structure. Our model represents keyphrase candidates and topics in a single graph and exploits their mutually reinforcing relationship to improve candidate ranking. We further introduce a novel mechanism to incorporate keyphrase selection preferences into the model. Experiments conducted on three widely used datasets show significant improvements over state-of-the-art graph-based models. |
+| **citation_section** | 3.2. Baselines and parameter settings |
+| **citation_frequency** | 2 |
+| **cited_paper_title** | A comparison of centrality measures for graph-based keyphrase extraction |
+| **cited_paper_authors** | Florian Boudin |
+| **cited_paper_year** | 2013 |
+| **cited_paper_bib_id** | boudin-2013-comparison |
+| **cited_paper_abstract** | In this paper, we present and compare various centrality measures for graphbased keyphrase extraction.Through experiments carried out on three standard datasets of different languages and domains, we show that simple degree centrality achieve results comparable to the widely used TextRank algorithm, and that closeness centrality obtains the best results on short documents. |
+| **citation_context** | Over-generation errors 2 are frequent in models that rank keyphrases according to the sum of the weights of their component words (Hasan and Ng, 2014; Boudin, 2015) . This is indeed the case for the second and third baselines, and we partially address this issue by normalizing candidate scores by their length, as proposed in CITATION . 2 These errors occur when a model correctly outputs a keyphrase because it contains an important word, but at the same time erroneously predicts other keyphrases because they contain the same word. |
+| **prev_sentence** | Over-generation errors 2 are frequent in models that rank keyphrases according to the sum of the weights of their component words (Hasan and Ng, 2014; Boudin, 2015) . |
+| **current_sentence** | This is indeed the case for the second and third baselines, and we partially address this issue by normalizing candidate scores by their length, as proposed in CITATION . |
+| **next_sentence** | 2 These errors occur when a model correctly outputs a keyphrase because it contains an important word, but at the same time erroneously predicts other keyphrases because they contain the same word. |
+| **period** | Period4_2017-2020 |
+| **KC** | 1 |
+
+
 
 
