@@ -153,7 +153,35 @@ The Knowledge Contribution (KC) field uses numerical mapping:
 - `5`: **Evidential Finding** - Empirical results and experimental findings
 
 ### Data Sample
-```tsv
-id	citing_paper_id	citing_paper_title	citing_paper_authors	citing_paper_year	citing_paper_abstract	citation_section	citation_frequency	cited_paper_title	cited_paper_authors	cited_paper_year	cited_paper_bib_id	cited_paper_abstract	citation_context	prev_sentence	current_sentence	next_sentence	period	KC
-941749	2023.emnlp-main.873	Hi Guys or Hi Folks? Benchmarking Gender-Neutral Machine Translation with the GeNTE Corpus	Andrea Piergentili; Beatrice Savoldi; Dennis Fucci; Matteo Negri; Luisa Bentivogli	2023	Gender inequality is embedded in our communication practices and perpetuated in translation technologies. This becomes particularly apparent when translating into grammatical gender languages, where machine translation (MT) often defaults to masculine and stereotypical representations by making undue binary gender assumptions. Our work addresses the rising demand for inclusive language by focusing head-on on gender-neutral translation from English to Italian. We start from the essentials: proposing a dedicated benchmark and exploring automated evaluation methods. First, we introduce GeNTE, a natural, bilingual test set for gender-neutral translation, whose creation was informed by a survey on the perception and use of neutral language. Based on GeNTE, we then overview existing reference-based evaluation approaches, highlight their limits, and propose a reference-free method more suitable to assess gender-neutral translation.	C.2 Training Setup	1	Transformers: State-of-the-art natural language processing	Thomas Wolf; Lysandre Debut; Victor Sanh; Julien Chaumond; Clement Delangue; Anthony Moi; Pierric Cistac; Tim Rault	2020	wolf-etal-2020-transformers	Recent progress in natural language processing has been driven by advances in both model architecture and model pretraining.Transformer architectures have facilitated building higher-capacity models and pretraining has made it possible to effectively utilize this capacity for a wide variety of tasks.Transformers is an open-source library with the goal of opening up these advances to the wider machine learning community.The library consists of carefully engineered stateof-the art Transformer architectures under a unified API.Backing this library is a curated collection of pretrained models made by and available for the community.Transformers is designed to be extensible by researchers, simple for practitioners, and fast and robust in industrial deployments.The library is available at https://github.com/ huggingface/transformers.	We trained the parameters of both the linear layer and UmBERTo on the classification task for 2 epoch, with learning rate of 5e-5, batch size of 64 and maximum sequence length of 64, on a p3.2xlarge instance on AWS (featuring one NVIDIA V100 GPU). The code for finetuning relies on Huggingface transformers library CITATION .	We trained the parameters of both the linear layer and UmBERTo on the classification task for 2 epoch, with learning rate of 5e-5, batch size of 64 and maximum sequence length of 64, on a p3.2xlarge instance on AWS (featuring one NVIDIA V100 GPU).	The code for finetuning relies on Huggingface transformers library CITATION .		Period5_2021-2024	2
+
+| Field | Value |
+|-------|-------|
+| **id** | 941749 |
+| **citing_paper_id** | 2023.emnlp-main.873 |
+| **citing_paper_title** | Hi Guys or Hi Folks? Benchmarking Gender-Neutral Machine Translation with the GeNTE Corpus |
+| **citing_paper_authors** | Andrea Piergentili; Beatrice Savoldi; Dennis Fucci; Matteo Negri; Luisa Bentivogli |
+| **citing_paper_year** | 2023 |
+| **citing_paper_abstract** | Gender inequality is embedded in our communication practices and perpetuated in translation technologies. This becomes particularly apparent when translating into grammatical gender languages, where machine translation (MT) often defaults to masculine and stereotypical representations by making undue binary gender assumptions. Our work addresses the rising demand for inclusive language by focusing head-on on gender-neutral translation from English to Italian. We start from the essentials: proposing a dedicated benchmark and exploring automated evaluation methods. First, we introduce GeNTE, a natural, bilingual test set for gender-neutral translation, whose creation was informed by a survey on the perception and use of neutral language. Based on GeNTE, we then overview existing reference-based evaluation approaches, highlight their limits, and propose a reference-free method more suitable to assess gender-neutral translation. |
+| **citation_section** | C.2 Training Setup |
+| **citation_frequency** | 1 |
+| **cited_paper_title** | Transformers: State-of-the-art natural language processing |
+| **cited_paper_authors** | Thomas Wolf; Lysandre Debut; Victor Sanh; Julien Chaumond; Clement Delangue; Anthony Moi; Pierric Cistac; Tim Rault |
+| **cited_paper_year** | 2020 |
+| **cited_paper_bib_id** | wolf-etal-2020-transformers |
+| **cited_paper_abstract** | Recent progress in natural language processing has been driven by advances in both model architecture and model pretraining.Transformer architectures have facilitated building higher-capacity models and pretraining has made it possible to effectively utilize this capacity for a wide variety of tasks.Transformers is an open-source library with the goal of opening up these advances to the wider machine learning community.The library consists of carefully engineered stateof-the art Transformer architectures under a unified API.Backing this library is a curated collection of pretrained models made by and available for the community.Transformers is designed to be extensible by researchers, simple for practitioners, and fast and robust in industrial deployments.The library is available at https://github.com/ huggingface/transformers. |
+| **citation_context** | We trained the parameters of both the linear layer and UmBERTo on the classification task for 2 epoch, with learning rate of 5e-5, batch size of 64 and maximum sequence length of 64, on a p3.2xlarge instance on AWS (featuring one NVIDIA V100 GPU). The code for finetuning relies on Huggingface transformers library CITATION . |
+| **prev_sentence** | We trained the parameters of both the linear layer and UmBERTo on the classification task for 2 epoch, with learning rate of 5e-5, batch size of 64 and maximum sequence length of 64, on a p3.2xlarge instance on AWS (featuring one NVIDIA V100 GPU). |
+| **current_sentence** | The code for finetuning relies on Huggingface transformers library CITATION . |
+| **next_sentence** | (empty) |
+| **period** | Period5_2021-2024 |
+| **KC** | 2 |
+
+**Example Instance Analysis:**
+- **Citing Paper**: "Hi Guys or Hi Folks? Benchmarking Gender-Neutral Machine Translation with the GeNTE Corpus" (2023)
+- **Cited Paper**: "Transformers: State-of-the-art natural language processing" (2020)
+- **Citation Context**: "The code for finetuning relies on Huggingface transformers library CITATION."
+- **SKC Classification**: Method & Technology (KC=2) - The citing paper directly uses the Transformers library for implementation
+- **Section**: C.2 Training Setup
+- **Time Period**: Period5_2021-2024
+
 
